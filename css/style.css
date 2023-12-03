@@ -1,0 +1,233 @@
+/* RESET */
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video,button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+body{
+    background: #D8D8D6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
+}
+
+
+
+.cont{
+    max-width: 1440px;
+    margin: 0 auto; 
+    padding: 0 15px;
+}
+
+.header{
+    background-color: #81A36B;
+    padding: 20px 0 ;
+}
+
+.header-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+}
+
+.menu a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+
+.first{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.cont-sec{
+    padding: 0 15px;
+}
+
+.cont-img{
+    padding: 0 15px;
+}
+
+.title{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 62px;
+    margin: 175px 0 40px 0;
+}
+
+.text{
+    max-width: 540px;
+    margin-bottom: 20px;
+    line-height: 164.063%
+}
+
+.btn{
+    border-radius: 6px;
+background: #81A36B;
+padding: 18px 35px;
+}
+
+.bth{
+    background: #D8D8D6;
+    border: 1px solid  #81A36B ;
+    border-radius: 6px;
+    padding: 18px 35px;
+    margin-left: 25px;
+}
+
+.cont-section{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 50px;
+}
+
+.titles{
+    font-family: 'Architects Daughter';
+    font-size: 32px;
+    margin-top: 120px;
+}
+.texts{
+    max-width: 540px;
+    text-align: center;
+    margin-bottom: 120px;
+    line-height: 164.063%
+}
+
+.list{
+    background: #81A36B;
+    padding: 80px 0;
+
+}
+
+.cont-list{
+    display: flex;
+   justify-content: space-between;
+}
+.list > .cont-list > p {
+    margin-top: 25px;
+}
+
+.second{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second > .cont-img > img{
+    margin-top: 128px;
+}
+
+.second > .cont-sec > h2 {
+margin-bottom: 50px;
+}
+
+.third{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.flow{
+    text-align: center;
+    padding: 0 15px;
+}
+
+.flow > h2{
+    margin-bottom: 50px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+
+}
+
+.images-flow > h4{
+    margin: 25px 0;
+    text-align: center;
+}
+
+.images-flow{
+    background-color: #81A36B;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.footer{
+    background-color: #81A36B;
+}
+
+.footer-cont{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.footer-li{
+    padding-top: 50px ;
+    padding-bottom: 50px;
+}
+
+.footer-li > h3 {
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+.lis > li{
+    margin-top: 20px;
+}
