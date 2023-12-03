@@ -89,15 +89,10 @@ body{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    padding: 0 15px;
 }
  
-.cont-sec{
-    padding: 0 15px;
-}
 
-.cont-img{
-    padding: 0 15px;
-}
 
 .title{
     font-family: 'Architects Daughter', cursive;
@@ -164,6 +159,7 @@ gap: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 15px;
 }
 
 .second > .cont-img > img{
@@ -177,11 +173,11 @@ margin-bottom: 50px;
 .third{
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .flow{
     text-align: center;
-    padding: 0 15px;
 }
 
 .flow > h2{
@@ -191,7 +187,6 @@ margin-bottom: 50px;
 .images{
     display: flex;
     justify-content: space-between;
-    padding: 0 15px;
 
 }
 
